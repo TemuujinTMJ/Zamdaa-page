@@ -45,7 +45,7 @@ const Navbar = ({toggle}) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='/'>IEO</NavLinks>
+                            <NavLinks to='/' onClick={toggleHome}>IEO</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks 

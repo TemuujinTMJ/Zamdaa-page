@@ -18,10 +18,9 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="about">About</SidebarLink>
-                    <SidebarLink to="about">About</SidebarLink>
-                    <SidebarLink to="about">About</SidebarLink>
-                    <SidebarLink to="about">About</SidebarLink>
+                    <SidebarLink to="/">IEO</SidebarLink>
+                    <SidebarLink to="about">Бидний тухай</SidebarLink>
+                    <SidebarLink to="services">Төслүүд</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
                     <SidebarLink>Whitepaper</SidebarLink>
