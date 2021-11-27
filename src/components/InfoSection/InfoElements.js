@@ -64,7 +64,8 @@ export const TopLine = styled.p`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({LightText}) => (LightText ? '#f7f8fa' : '010606')};
+    /* color: ${({LightText}) => (LightText ? '#f7f8fa' : '010606')}; */
+    color: black;
  
     @media screen and (max-width: 480px) {
         font-size: 32px;
@@ -72,11 +73,13 @@ export const TopLine = styled.p`
  `
 
  export const Subtitle = styled.p`
+    text-indent: 2rem;
     max-width: 440px;
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+    /* color: ${({darkText}) => (darkText ? '#010606' : '#fff')}; */
+    color: black;
  `
 export const BtnWrap = styled.div`
     display: flex;
@@ -89,7 +92,7 @@ export const ImgWrap = styled.div`
 `
 
 export const Img = styled.img`
-    width: 100%;
+    width: 130%;
     margin: 0 0 10px 0;
     padding-right: 0;
 `

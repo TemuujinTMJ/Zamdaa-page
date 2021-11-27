@@ -28,11 +28,11 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1> ZMD Token by Zamdaa LLC</HeroH1>
-                <HeroP> Таны mobility хэрэгцээг бид хангана.</HeroP>
+                <HeroH1>ZMD Токен гэж юу вэ?</HeroH1>
+                <HeroP> Хүн бүрт хамааралтай түгжрэлийн асуудлыг оновчтой шийдвэрлэх, орчин үеийн зорчигч тээврийн шийдлийн токен </HeroP>
                 <HeroBtnWrapper>
                     <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover}>
-                        Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+                    ZMD токен сонирхох {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>

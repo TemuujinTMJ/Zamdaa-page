@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaTelegram, FaTwitter } from 'react-icons/fa';
 import { 
     FooterContainer,
     FooterWrap,
@@ -26,11 +26,14 @@ const Footer = () => {
                             <SocialIconsLink href='/' target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconsLink>
-                            <SocialIconsLink href='/' target="_blank" aria-label="Facebook">
-                                <FaFacebook />
+                            <SocialIconsLink href='/' target="_blank" aria-label="Telegram">
+                                <FaTelegram />
                             </SocialIconsLink>
                             <SocialIconsLink href='/' target="_blank" aria-label="Linkedin">
                                 <FaLinkedin />
+                            </SocialIconsLink>
+                            <SocialIconsLink href='/' target="_blank" aria-label="Twitter">
+                                <FaTwitter />
                             </SocialIconsLink>
                         </SocialIcons>
                     </SocialMediaWrap>

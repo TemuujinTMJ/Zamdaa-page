@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import { FaBars } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll'
+import logo from '../../images/zamdaa-logo.png'
 import { 
     Nav, 
     NavbarContainer, 
@@ -39,13 +40,13 @@ const Navbar = ({toggle}) => {
         <IconContext.Provider value={{ color: '#fff'}}>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>Zamdaa</NavLogo>
+                    <NavLogo  to="/" onClick={toggleHome} src={logo}>Zamdaa</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='/' onClick={toggleHome}>IEO</NavLinks>
+                            <NavLinks onClick={toggleHome}>IEO</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks 
@@ -69,7 +70,7 @@ const Navbar = ({toggle}) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/Whitepaper">Whitepaper</NavBtnLink>
+                        <NavBtnLink to='/' target='_blank'>Whitepaper</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

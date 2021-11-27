@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '../ButtonElements';
-import img from '../../images/svg-1.svg'
+import img from '../../images/infocar.png'
 import { 
     Column2,
     ImgWrap,
@@ -25,7 +25,9 @@ const InfoSection = ({
     headline, 
     topLine, 
     lightText, 
-    description, 
+    description,
+    description1,
+    // description2, 
     darkText, 
     buttonLabel, 
     alt,
@@ -43,6 +45,8 @@ const InfoSection = ({
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
+                                <Subtitle darkText={darkText}>{description1}</Subtitle>
+                                {/* <Subtitle darkText={darkText}>{description2}</Subtitle> */}
                                 <BtnWrap>
                                     <Button to='home'
                                     smooth={true}
