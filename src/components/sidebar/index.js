@@ -1,4 +1,5 @@
 import React from 'react'
+import pdf from '../../images/WP.pdf'
 import { 
     SidebarContainer, 
     Icon, 
@@ -23,7 +24,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="services">Төслүүд</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarLink>Whitepaper</SidebarLink>
+                    <SidebarLink to={pdf} target='_blank'>Whitepaper</SidebarLink>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

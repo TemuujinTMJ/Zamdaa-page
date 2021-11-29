@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from '../ButtonElements';
+// import { Button } from '../ButtonElements'
 import img from '../../images/infocar.png'
 import { 
     Column2,
@@ -11,7 +11,7 @@ import {
     TopLine,
     Heading,
     Subtitle,
-    BtnWrap,
+    // BtnWrap,
     Img,
     InfoWrapper
     
@@ -46,9 +46,8 @@ const InfoSection = ({
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <Subtitle darkText={darkText}>{description1}</Subtitle>
-                                {/* <Subtitle darkText={darkText}>{description2}</Subtitle> */}
-                                <BtnWrap>
-                                    <Button to='home'
+                                {/* <BtnWrap>
+                                    <Button
                                     smooth={true}
                                     duration={500}
                                     spy={true}
@@ -58,7 +57,7 @@ const InfoSection = ({
                                     dark={dark ? 1 : 0}
                                     dark2={dark2 ? 1 : 0}
                                     >{buttonLabel}</Button>
-                                </BtnWrap>
+                                </BtnWrap> */}
                             </TextWrapper>
                         </Column1>
                         <Column2>

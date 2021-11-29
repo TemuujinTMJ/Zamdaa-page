@@ -12,6 +12,8 @@ export const HeroContainer = styled.div`
     z-index: 1;
 `
 
+
+
 export const HeroBg = styled.div`
     position: absolute;
     top: 0;
@@ -39,6 +41,12 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+`
+
+export const LogoImg = styled.img`
+    justify-content: center;
+    width: 300px;
+
 `
 
 export const HeroH1 = styled.h1`

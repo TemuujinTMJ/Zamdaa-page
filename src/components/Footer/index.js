@@ -18,21 +18,21 @@ const Footer = () => {
                 <SocialMedia> 
                     <SocialMediaWrap>
                         <SocialLogo to='/'>Zamdaa LLC</SocialLogo>
-                        <WebsiteRights>Zamdaa LLC 2021 copyright {new Date().getFullYear} All rights reserved.</WebsiteRights>
+                        <WebsiteRights>Zamdaa LLC Ⓒ 2021 copyright {new Date().getFullYear} All rights reserved.</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconsLink href='/' target="_blank" aria-label="Facebook">
+                            <SocialIconsLink href='https://www.facebook.com/zamdaa' target="_blank" aria-label="Facebook">
                                 <FaFacebook />
                             </SocialIconsLink>
-                            <SocialIconsLink href='/' target="_blank" aria-label="Instagram">
+                            <SocialIconsLink href='https://www.instagram.com/mashintureesmn/' target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconsLink>
                             <SocialIconsLink href='/' target="_blank" aria-label="Telegram">
                                 <FaTelegram />
                             </SocialIconsLink>
-                            <SocialIconsLink href='/' target="_blank" aria-label="Linkedin">
+                            <SocialIconsLink href='https://www.linkedin.com/company/zamdaa' target="_blank" aria-label="Linkedin">
                                 <FaLinkedin />
                             </SocialIconsLink>
-                            <SocialIconsLink href='/' target="_blank" aria-label="Twitter">
+                            <SocialIconsLink href="https://twitter.com/zamdaa_app" target="_blank" aria-label="Twitter">
                                 <FaTwitter />
                             </SocialIconsLink>
                         </SocialIcons>

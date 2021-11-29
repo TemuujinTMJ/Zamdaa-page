@@ -3,6 +3,7 @@ import { FaBars } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll'
 import logo from '../../images/zamdaa-logo.png'
+import pdf from '../../images/WP.pdf'
 import { 
     Nav, 
     NavbarContainer, 
@@ -70,7 +71,7 @@ const Navbar = ({toggle}) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to='/' target='_blank'>Whitepaper</NavBtnLink>
+                        <NavBtnLink to={pdf} target='_blank'>Whitepaper</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

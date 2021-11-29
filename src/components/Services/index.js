@@ -34,14 +34,14 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>
                     <ServicesH2>Zamdaa.Turees</ServicesH2>
-                    <ServicesP>Peer-to-peer буюу хэрэглэгч хоорондын машин түрээсийн нэгдсэн цорын ганц платформ.</ServicesP>
+                    <ServicesP>Peer-to-peer буюу гуравдагч этгээдгүй хэрэглэгч хоорондын машин түрээсийн нэгдсэн цорын ганц платформ.</ServicesP>
                     <Button>Coming Soon ...</Button>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
                     <ServicesH2>Zamdaa.Aylal</ServicesH2>
-                    <ServicesP> Хот хооронд зорчих жолооч, зорчигчийг найдвартай хангах цорын ганц дайх, дайгдах апп.</ServicesP>
-                    <Button to='https://www.playstore.com/zamdaa' target="_blank">Android Татах</Button>
+                    <ServicesP> Хот хооронд зорчих жолооч, зорчигчийг найдвартай хангах цорын ганц дайх, дайгдах аппликейшн.</ServicesP>
+                    <Button href='https://play.google.com/store/apps/details?id=mn.zamdaa' target="_blank">Android Татах</Button>
                 </ServicesCard>
             </ServiceWrapper>
         </ServicesContainer>

@@ -1,6 +1,9 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video.mp4'
 import { Button } from '../ButtonElements';
+import { LogoImg } from './HeroElements';
+import tokenlogo from '../../images/tokenlogo.png'
+// import pdf from '../../images/WP.pdf'
 import { 
     HeroContainer, 
     HeroBg, 
@@ -12,6 +15,7 @@ import {
     ArrowForward,
     ArrowRight,
 } from './HeroElements';
+// import { Button } from 'react-scroll';
 
 const HeroSection = () => {
 
@@ -28,15 +32,15 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
+                <LogoImg src={tokenlogo} />
                 <HeroH1>ZMD Токен гэж юу вэ?</HeroH1>
                 <HeroP> Хүн бүрт хамааралтай түгжрэлийн асуудлыг оновчтой шийдвэрлэх, орчин үеийн зорчигч тээврийн шийдлийн токен </HeroP>
                 <HeroBtnWrapper>
-                    <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover}>
-                    ZMD токен сонирхох {hover ? <ArrowForward /> : <ArrowRight />}
+                    <Button onMouseEnter={onHover} onMouseLeave={onHover}>
+                     ZMD токен сонирхох {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
-            
         </HeroContainer>
     )
 }
