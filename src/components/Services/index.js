@@ -13,6 +13,9 @@ import {
     ServicesIcon,
     ServicesP,
  } from './ServicesElements';
+ const onClick =()=>{
+    window.open("https://www.facebook.com/carshare.mn")
+ }
 
 const Services = () => {
     return (
@@ -23,7 +26,7 @@ const Services = () => {
                     <ServicesIcon src={Icon3}/>
                     <ServicesH2>Zamdaa.CarShare</ServicesH2>
                     <ServicesP>Та манай апп ашиглан өөрт хамгийн ойр машиныг захиалан унаж, дуртай газраа орхиод явах боломжтой. </ServicesP>
-                    <Button>Coming Soon ...</Button>
+                    <Button onClick={onClick}>Дэлгэрэнгүй</Button>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon4}/>

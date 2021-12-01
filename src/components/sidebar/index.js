@@ -24,7 +24,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="services">Төслүүд</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarLink to={pdf} target='_blank'>Whitepaper</SidebarLink>
+                    <SidebarLink target='_blank'>Whitepaper</SidebarLink>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
