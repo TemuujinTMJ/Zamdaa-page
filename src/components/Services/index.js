@@ -13,9 +13,7 @@ import {
     ServicesIcon,
     ServicesP,
  } from './ServicesElements';
- const onClick =()=>{
-    window.open("https://www.facebook.com/carshare.mn")
- }
+
 
 const Services = () => {
     return (
@@ -26,7 +24,7 @@ const Services = () => {
                     <ServicesIcon src={Icon3}/>
                     <ServicesH2>Zamdaa.CarShare</ServicesH2>
                     <ServicesP>Та манай апп ашиглан өөрт хамгийн ойр машиныг захиалан унаж, дуртай газраа орхиод явах боломжтой. </ServicesP>
-                    <Button onClick={onClick}>Дэлгэрэнгүй</Button>
+                    <Button onClick={()=>{window.open("https://www.facebook.com/carshare.mn")}}>Дэлгэрэнгүй</Button>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon4}/>
@@ -38,7 +36,7 @@ const Services = () => {
                     <ServicesIcon src={Icon1}/>
                     <ServicesH2>Zamdaa.Turees</ServicesH2>
                     <ServicesP>Peer-to-peer буюу гуравдагч этгээдгүй хэрэглэгч хоорондын машин түрээсийн нэгдсэн цорын ганц платформ.</ServicesP>
-                    <Button>Coming Soon ...</Button>
+                    <Button onClick={()=>{window.open("http://www.mashinturees.mn/ ")}}>Дэлгэрэнгүй</Button>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
