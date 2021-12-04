@@ -3,7 +3,6 @@ import Video from '../../videos/video.mp4'
 import { Button } from '../ButtonElements';
 import { LogoImg } from './HeroElements';
 import tokenlogo from '../../images/tokenlogo.png'
-// import pdf from '../../images/WP.pdf'
 import { 
     HeroContainer, 
     HeroBg, 
