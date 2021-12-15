@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
+
 export const Nav = styled.nav`
     background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
     height: 80px;
@@ -115,3 +116,48 @@ export const NavBtnLink = styled(LinkR)`
         color: #010606;
     }
 `
+
+// export const DropDownContent = styled.div`
+//   display: none;
+//   position: absolute;
+//   background-color: transparent;
+//   min-width: 160px;
+//   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+//   z-index: 1;
+// `;
+export const DropDownContent = styled.div`
+  display: none;
+  position: absolute;
+  background-color: gray;
+  color: black
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+`;
+
+export const DropDownLi = styled(NavLinks)`
+  padding: 1rem;
+  float: left;
+  display: inline-block;
+  &:hover ${DropDownContent} {
+    display: block;
+  }
+`;
+
+
+// export const DropDownLi = styled.li`
+//   padding: 1rem;
+//   float: left;
+//   display: inline-block;
+//   &:hover ${DropDownContent} {
+//     display: block;
+//   }
+// `;
+
+export const Dropbtn = styled.div`
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+`;

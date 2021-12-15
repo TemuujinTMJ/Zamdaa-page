@@ -13,7 +13,11 @@ import {
     NavMenu, 
     NavItem,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+
+    DropDownLi,
+    Dropbtn,
+    DropDownContent
 } from './NavbarElements'
 
 const Navbar = ({toggle}) => {
@@ -46,8 +50,25 @@ const Navbar = ({toggle}) => {
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks onClick={toggleHome}>IEO</NavLinks>
+                        </NavItem> */}
+                        <NavItem>
+                            <DropDownLi>
+                                <Dropbtn onClick={toggleHome}>
+                                    IEO
+                                </Dropbtn>
+                                <DropDownContent>
+                                    <br />
+                                    <NavLinks onClick={toggleHome}>Бүртгүүлэх</NavLinks>
+                                    <br />
+                                    <NavLinks onClick={toggleHome}>Нэвтрэх</NavLinks>
+                                    <br />
+                                    <NavLinks onClick={toggleHome}>Миний булан</NavLinks>
+                                    <br />
+                                    <NavLinks onClick={toggleHome}>Худалдан авах</NavLinks>
+                                </DropDownContent>
+                            </DropDownLi>
                         </NavItem>
                         <NavItem>
                             <NavLinks 
