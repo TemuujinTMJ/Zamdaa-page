@@ -5,7 +5,7 @@ import { useState } from 'react'
 import HeroSection from '../../components/HeroSection'
 import InfoSection from '../../components/InfoSection'
 import { homeObjOne } from '../../components/InfoSection/Data'
-import Services from '../../components/Services'
+import Register from '../../components/Register'
 import Footer from '../../components/Footer'
 
 const Login = () => {
@@ -18,7 +18,7 @@ const Login = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
-            <Services />
+            <Register />
             <Footer />
         </>
         

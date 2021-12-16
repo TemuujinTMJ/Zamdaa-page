@@ -60,9 +60,11 @@ const Navbar = ({toggle}) => {
                                 </Dropbtn>
                                 <DropDownContent>
                                     <br />
+                                    {/* <NavLinks onClick={toggleHome}>Бүртгүүлэх</NavLinks> */}
                                     <NavLinks onClick={toggleHome}>Бүртгүүлэх</NavLinks>
                                     <br />
-                                    <NavLinks onClick={toggleHome}>Нэвтрэх</NavLinks>
+                                    {/* <NavLinks onClick={toggleHome}>Нэвтрэх</NavLinks> */}
+                                    <NavLinks to="/login">Нэвтрэх</NavLinks>
                                     <br />
                                     <NavLinks onClick={toggleHome}>Миний булан</NavLinks>
                                     <br />

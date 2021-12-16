@@ -4,8 +4,8 @@ import Sidebar from '../../components/sidebar'
 import { useState } from 'react'
 import HeroSection from '../../components/HeroSection'
 import InfoSection from '../../components/InfoSection'
-import { homeObjOne } from '../../components/InfoSection/Data'
-import Services from '../../components/Services'
+import { homeObjOne } from '../../components/Profile/Data'
+import Profile from '../../components/Profile'
 import Footer from '../../components/Footer'
 
 const Login = () => {
@@ -18,7 +18,7 @@ const Login = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
-            <Services />
+            <Profile {...homeObjOne} />
             <Footer />
         </>
         
