@@ -81,6 +81,7 @@ export const TopLine = styled.p`
     line-height: 24px;
     /* color: ${({darkText}) => (darkText ? '#010606' : '#fff')}; */
     color: black;
+    
  `
 export const BtnWrap = styled.div`
     display: flex;

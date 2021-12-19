@@ -1,5 +1,4 @@
 import React from 'react'
-import pdf from '../../images/Zamdaa.pdf'
 import { 
     SidebarContainer, 
     Icon, 
@@ -24,7 +23,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="services">Төслүүд</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarLink to={pdf} target='_blank'>Whitepaper</SidebarLink>
+                    <SidebarLink>Zamdaa LLC</SidebarLink>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
