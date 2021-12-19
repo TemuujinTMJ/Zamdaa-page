@@ -1,5 +1,5 @@
 import React from 'react'
-import pdf from '../../images/WP.pdf'
+import pdf from '../../images/Zamdaa.pdf'
 import { 
     SidebarContainer, 
     Icon, 
