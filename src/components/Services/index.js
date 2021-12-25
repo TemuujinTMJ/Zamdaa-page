@@ -25,19 +25,19 @@ const Services = () => {
                     <ServicesIcon src={Icon3}/>
                     <ServicesH2>Zamdaa.CarShare</ServicesH2>
                     <ServicesP>Та манай апп ашиглан өөрт хамгийн ойр машиныг захиалан унаж, дуртай газраа орхиод явах боломжтой. </ServicesP>
-                    <Button  href="https://www.facebook.com/carshare.mn" target="_blank">Дэлгэрэнгүй</Button>
+                    <Button  href="http://www.carshare.mn" target="_blank">Дэлгэрэнгүй</Button>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon4}/>
                     <ServicesH2>Zamdaa.Scooter</ServicesH2>
                     <ServicesP>Та манай апп ашиглан өөрт хамгийн ойр цахилгаан скутерыг захиалан унаж, дуртай газраа орхиод явах боломжтой.</ServicesP>
-                    <Button  href="https://www.google.com" target="_blank">Дэлгэрэнгүй</Button>
+                    <Button  href="http://www.scooter.mn" target="_blank">Дэлгэрэнгүй</Button>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>
                     <ServicesH2>Zamdaa.Turees</ServicesH2>
                     <ServicesP>Анхны peer-to-peer буюу хэрэглэгч хоорондын машин түрээсийн платформ.</ServicesP><br/>
-                    <Button href="https://www.facebook.com/mashinturees.mn" target="_blank" >Дэлгэрэнгүй</Button>
+                    <Button href="http://www.mashinturees.mn" target="_blank" >Дэлгэрэнгүй</Button>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
