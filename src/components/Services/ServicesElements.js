@@ -80,4 +80,7 @@ export const ServicesP = styled.p`
     text-align: center;
     margin-bottom: 30px;
 `
-
+export const BtnCointainer = styled.div`
+    display: flex;
+    justify-content: space-between;
+`
