@@ -3,8 +3,8 @@ import { FaBars } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll'
 import logo from '../../images/zamdaa-logo.png'
-import pdfen from '../../Whitepaper/WP_EN.pdf'
-import pdfmn from '../../Whitepaper/WP_MN.pdf'
+import pdfen from '../../Whitepaper/EN.pdf'
+import pdfmn from '../../Whitepaper/MN.pdf'
 import { 
     Nav, 
     NavbarContainer, 
