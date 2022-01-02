@@ -72,8 +72,8 @@ const Navbar = ({toggle}) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to={pdfen} target="_blank" >Whitepaper EN</NavBtnLink>
                         <NavBtnLink to={pdfmn} target="_blank">Whitepaper MN</NavBtnLink>
+                        <NavBtnLink to={pdfen} target="_blank" >Whitepaper EN</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
