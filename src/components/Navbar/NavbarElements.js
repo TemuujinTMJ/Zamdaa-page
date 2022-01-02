@@ -93,6 +93,7 @@ export const NavBtn = styled.nav`
 
     @media screen and (max-width: 768px) {
         margin-right: 50px;
+        flex-direction: column;
     }
 `;
 
@@ -109,6 +110,7 @@ export const NavBtnLink = styled(LinkR)`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
+
 
     &:hover {
         transition: all 0.2s ease-in-out;
