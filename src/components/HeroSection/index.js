@@ -35,7 +35,7 @@ const HeroSection = () => {
                 <HeroH1>ZMD Токен гэж юу вэ?</HeroH1>
                 <HeroP> Хүн бүрт хамааралтай түгжрэлийн асуудлыг оновчтой шийдвэрлэх, орчин үеийн зорчигч тээврийн шийдлийн токен </HeroP>
                 <HeroBtnWrapper>
-                    <Button onMouseEnter={onHover} onMouseLeave={onHover}>
+                    <Button href='https://capex.mn/launchpad/13' target='_blank' onMouseEnter={onHover} onMouseLeave={onHover}>
                      ZMD токен сонирхох {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
