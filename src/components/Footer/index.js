@@ -26,7 +26,7 @@ const Footer = () => {
                             <SocialIconsLink href='https://www.instagram.com/mashintureesmn/' target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconsLink>
-                            <SocialIconsLink href='/' target="_blank" aria-label="Telegram">
+                            <SocialIconsLink href='https://t.me/zmdofficial' target="_blank" aria-label="Telegram">
                                 <FaTelegram />
                             </SocialIconsLink>
                             <SocialIconsLink href='https://www.linkedin.com/company/zamdaa' target="_blank" aria-label="Linkedin">
